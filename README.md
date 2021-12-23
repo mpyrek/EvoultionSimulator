@@ -10,8 +10,16 @@ is happening on the two panels:
 
 ## Animal World
 #### Map legend
-![](./images/legen.png)
+
+<img src="./images/legen.png" alt="legen" height="350" width="400"/>
+<br /><br />
+
+Before you start the simulation you can choose parameters or use default data.
+<br /><br />
+<img src="./images/dataPanel.png" alt="dataPanel" height="500"/>
+
 
 
 This simulation has got two version. First of them is normal, so the animals just die. Second of them is magic! When in our world stay only five or less animals, 
-then five more creation appear :)  The map informs us about this moment on the left panel.
+then five more creation appear :)  The map informs us about this moment on the left panel, like on this film.
+
