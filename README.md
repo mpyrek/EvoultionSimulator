@@ -10,7 +10,7 @@ is happening on the two panels:
 
 ## Animal World
 #### Map legend
-
+![](./images/legen.png)
 
 
 This simulation has got two version. First of them is normal, so the animals just die. Second of them is magic! When in our world stay only five or less animals, 
