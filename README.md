@@ -32,8 +32,8 @@ then five more creation appear :)  The map informs us about this moment on the l
 #### ->Left Panel
 If you stop animation, you can: 
 * [save statistic additionaly](#save-statistic-additionaly)
-* [see all animals which have dominant genom](#see-dominant)
-* [click on animal to  strat tricking or see it genom](#trick-or-see)
+* [see all animals which have dominant genom](#see-all-animals-which-have-dominant-genom)
+* [click on animal to  strat tricking or see it genom](#click-on-animal-to-strat-tricking-or-see-it-genom)
 
 ##### Save statistic additionaly 
 If you click on button "Save statistic", you can save the same statistic which you can see on right panel on whatever you want file (but it should exist!). In our simulation statitics are automatically saved in default file, so it is additional action.
@@ -49,7 +49,7 @@ If you click button "Show Dominant Genom", you can see "!" on at least one field
 <img src="./images/dominantGen.gif" alt="dominantGenom" />
 <br /> <br />
 
-##### Click on animal to  strat tricking or see it genom
+##### Click on animal to strat tricking or see it genom
 If the simulation is not running,  you can click on any animal you want. Then you can see scene like this:
 <p align="center">
   <img src="./images/Tricking.png" alt="tricking" />
@@ -60,6 +60,6 @@ You have to opioton. First of them will just show the genome of the pet. But sec
 
 <br /> <br />
 #### ->Right Panel
-As you can see above, on right panel you can see temp statistic on evry day(Era).
+As you can see above, on right panel you can see temp statistic on every day(Era).
 <br /> <br />
 #### Developed by @mpyrek
