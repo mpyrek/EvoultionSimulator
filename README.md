@@ -20,7 +20,7 @@ is happening on the two panels:
 Before you start the simulation you can choose parameters or use default data.
 <br /><br />
 <p align="center">
-  <img src="./images/dataPanel.png" alt="dataPanel" height="500" />
+  <img src="./images/getData.png" alt="getData" height="500" />
 </p>
 <br />
 This simulation has got two version. First one is normal, so the animals just die. Second one is magic! When in our world stay only five or less animals, 
