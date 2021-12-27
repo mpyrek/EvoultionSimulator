@@ -72,8 +72,8 @@ public abstract class AbstractWorldMap implements IWorldMap, IPositionChangeObse
                 int mamEnergyLevel = mam.getEnergyLevel();
 
                 if (dadyEnergyLevel >= 0.5 * dady.startEnergy && mamEnergyLevel > mam.startEnergy * 0.5) {
-                    Animal child = new Animal(this, (int) (0.25 * dady.getEnergyLevel() + 0.25 * mam.getEnergyLevel()),
-                            mam.moveEnergy, vector2d, day);
+                    Animal child = new Animal(this, mam.startEnergy, mam.moveEnergy, vector2d, day);
+                    child.energyLevel = (int)(0.25 * dady.getEnergyLevel() + 0.25 * mam.getEnergyLevel());
                     int placeOfDivisionGenes =(int) (32*dadyEnergyLevel) / (dadyEnergyLevel + mamEnergyLevel);
                     child.genes = new Genes();
                     child.genes.createGenesForChild(dady.genes.genes, mam.genes.genes, placeOfDivisionGenes);
