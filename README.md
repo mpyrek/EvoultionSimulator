@@ -54,7 +54,7 @@ If the simulation is not running,  you can click on any animal you want. Then yo
 <p align="center">
   <img src="./images/Tricking.png" alt="tricking" />
 </p>
-You have to opioton. First of them will just show the genome of the pet. But second option is amazing! You can trick animal on left panel and see interesting info about this animal.
+You have two opiotons. First of them will just show the genome of the pet. But second option is amazing! You can trick animal on left panel and see interesting info about this animal.
 <br /> <br />
 <img src="./images/trickingFilm.gif" alt="tricking" />
 
