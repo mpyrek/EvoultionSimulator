@@ -50,6 +50,7 @@ public class App extends Application {
 
     int width;
     int height;
+    int jungleInPercent;
     int startEnergy;
     int moveEnergy;
     int plantEnergy;
@@ -123,8 +124,7 @@ public class App extends Application {
         Label startEnergyLabel = new Label("start energy: ");
         Label moveEnergyLabel = new Label("move energy: ");
         Label plantEnergyLabel = new Label("plant energy: ");
-        Label jungleWidthLabel = new Label("jungle width: ");
-        Label jungleHeightLabel = new Label("jungle height: ");
+        Label jungleInPercentLabel = new Label("jungle area[%]");
         Label chooseVersion = new Label("select one of version");
 
         TextField widthTextField = new TextField("15");
@@ -132,8 +132,7 @@ public class App extends Application {
         TextField startEnergyTextField = new TextField("100");
         TextField moveEnergyTextField = new TextField("2");
         TextField plantEnergyTextField = new TextField("20");
-        TextField jungleWidthTextField = new TextField("5");
-        TextField jungleHeightTextField = new TextField("5");
+        TextField jungleInPercentTextField = new TextField("15");
         ChoiceBox<String> choiceBox = new ChoiceBox<>();
         choiceBox.getItems().add("Normal");
         choiceBox.getItems().add("Magic");
@@ -146,8 +145,9 @@ public class App extends Application {
             startEnergy = isInt(startEnergyTextField.getText());
             moveEnergy = isInt(moveEnergyTextField.getText());
             plantEnergy = isInt(plantEnergyTextField.getText());
-            jungleWidth = isInt(jungleWidthTextField.getText());
-            jungleHeight = isInt(jungleHeightTextField.getText());
+            jungleInPercent = isInt(jungleInPercentTextField.getText());
+            jungleWidth = (int)(Math.sqrt(width*height*jungleInPercent/100));
+            jungleHeight =  (int)(Math.sqrt(width*height*jungleInPercent/100));
             isNormalVersion = (choiceBox.getValue().equals("Normal"));
 
             Stage secondStage = new Stage();
@@ -186,8 +186,7 @@ public class App extends Application {
                 startEnergyLabel, startEnergyTextField,
                 moveEnergyLabel, moveEnergyTextField,
                 plantEnergyLabel, plantEnergyTextField,
-                jungleWidthLabel, jungleWidthTextField,
-                jungleHeightLabel, jungleHeightTextField,
+                jungleInPercentLabel,jungleInPercentTextField,
                 chooseVersion, choiceBox,
                 save);
 
