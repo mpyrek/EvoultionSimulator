@@ -23,7 +23,7 @@ Before you start the simulation you can choose parameters or use default data.
   <img src="./images/dataPanel.png" alt="dataPanel" height="500" />
 </p>
 <br />
-This simulation has got two version. First of them is normal, so the animals just die. Second of them is magic! When in our world stay only five or less animals, 
+This simulation has got two version. First one is normal, so the animals just die. Second one is magic! When in our world stay only five or less animals, 
 then five more creation appear :)  The map informs us about this moment on the left panel, like on this film.
 <br /><br />
 <img src="./images/Darwin EvaluationMagicVersion.gif" alt="DarvinEvolution" height="500"/>
