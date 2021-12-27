@@ -18,16 +18,29 @@ public class Genes {
         Arrays.sort(this.genes);
     }
 
-    public void createGenesForChild(int[] genes1,int[] genes2, int point){
-        for(int i = 0; i <point; i++){
-            this.genes[i]= genes1[i];
-        }
+    public void createGenesForChild(int[] genes1, int[] genes2, int point) {
+        int whichGenesFirst = (int) (random() * 2);
 
-        for(int i=point;i<32;i++){
-            this.genes[i] = genes2[i];
+        if (whichGenesFirst == 0) {
+            for (int i = 0; i < point; i++) {
+                this.genes[i] = genes1[i];
+            }
+
+            for (int i = point; i < 32; i++) {
+                this.genes[i] = genes2[i];
+            }
+        } else {
+            for (int i = 0; i < point; i++) {
+                this.genes[i] = genes2[i];
+            }
+
+            for (int i = point; i < 32; i++) {
+                this.genes[i] = genes1[i];
+            }
         }
+        Arrays.sort(this.genes);
     }
-
+    
     public boolean equalGenes(Genes genes1){
         for(int i = 0 ;i<32 ;i++){
             if(this.genes[i]!=genes1.genes[i]) return false;
