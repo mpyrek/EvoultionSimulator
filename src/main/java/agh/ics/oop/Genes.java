@@ -30,11 +30,11 @@ public class Genes {
                 this.genes[i] = genes2[i];
             }
         } else {
-            for (int i = 0; i < point; i++) {
+            for (int i = 0; i < 32 - point; i++) {
                 this.genes[i] = genes2[i];
             }
 
-            for (int i = point; i < 32; i++) {
+            for (int i = 32 - point; i < 32; i++) {
                 this.genes[i] = genes1[i];
             }
         }
